@@ -11,7 +11,7 @@ lang-ref: index
 1. После установки проверь что настройки из `Kernel/Config/Files/XML/` были
    применены.
 
-## Настройка полей по которым будет искать пользователей CustomerSearch()
+## Настройка полей по которым CustomerSearch() ищет пользователей
 
 В `Kernel/Config/Defaults.pm` или `Kernel/Config.pm` в поле
 `CustomerUserSearchFields` прописать список полей для поиска пользователей:
@@ -45,3 +45,7 @@ No data provided.
 ```
 
 Обработка такого поведения задана в `Kernel/GenericInterface/Requester.pm`.
+
+# Поддержка ОТРС
+
+- [Настройка уведомлений о предстоящих работах]({{ site.baseurl }}/уведомление_о_работах)
